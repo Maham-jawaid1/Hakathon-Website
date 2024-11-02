@@ -1,27 +1,377 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.container1{
+	width: 1650px;
+	height: 840px;
+	justify-content: center;
+	text-align: justify;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+}
+.logo{
+  width: 70;
+  height: 43.71;
+  word-spacing: -67;
+}
+.mainimage{
+  display:flex;
+  justify-content:right;
+   padding-right:120px;
+  width: 870;
+height: 800px;
+padding-top: 30px;
+}
+/*About section*/
+.align-image-about{
+float: left;
+margin-left: 30px;
+margin-right: 30px;
+}
+.About-images{
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.second{
+	padding-top: 70px;
+}
+.About-section{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	justify-content: center;
+	text-align: justify;
+	align-items: center;
+	gap: 100px;
+	width: 1650px;
+	height: 560px;
+	background-color: #F1F0F0;
+	margin: 0 auto;
+	padding: 30px;
+	padding-top: 100px;
+
+}
+.About-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F1F0F0;
+	margin: 0 auto;
+}
+.About-text{
+	float: right;
+}
+.aboutheading{
+	color: gray;
+	font-size: 65px;
+}
+.aboutpara{
+	width: 400px;
+	height: 200px;
+}
+/* main-focus-section */
+.mainfocus{
+	width: 1170px;
+	height: 208px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.focus-text{
+	text-align: justify;
+	margin-top: 20px;
+	width: 460px;
+	padding: 40px;
+}
+.mainfocus-heading{
+	font-size: 64px;
+	color: #BDBDBD;
+	margin-top: 80px;
+	padding-left: 60px;
+}
+.focus-item{
+	display: flex;
+	align-items: center;
+	float: left;
+	padding-left: 200px;
+}
+.focus-imageone, .focus-imagetwo{
+	width: 100px;
+	height: 140px;
+}
+.focus-text{
+	float: left;
+}
+.container3{
+
+width: 1650px;
+	height: 400px;
+	justify-content: center;
+	text-align: justify;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 10px;
+	padding-top: 30px;
+}
+.container4{
+	width: 1650px;
+		height: 500px;
+		justify-content: center;
+		text-align: justify;
+		align-items: center;
+		margin: 0 auto;
+		margin-top: 60px;
+		padding: 10px;
+	
+		padding-top: 50px;
+	}
+	.container5{
+		width: 1650px;
+	height: 400px;
+	justify-content: center;
+	text-align: justify;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 10px;
+	padding-top: 30px;
+	}
+	.mainprojectheading{
+		font-size: 64px;
+		font-size: 64px;
+		color: #BDBDBD;
+		margin-top: 20px;
+		padding-left: 60px;
+	}
+	.rowimagesone{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;	
+}
+.rowimagestwo{
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;	
+  padding-top: 50px;
+}
+.picone{
+	width: 780px;
+	height: 310px;
+}
+.pictwo{
+	width: 780px;
+	height: 300px;
+}
+.picthree{
+width: 390px;
+height: 300px;
+}
+.picfour{
+ width:700px ;
+ height: 300px;
+}
+.picfive{
+width: 500;
+height: 300px;
+}
+.projectbutton{
+		width: 250px;
+		margin-top: 50px;
+		background-color: #24262b ;
+		border-radius: 0px;
+		padding: 20px;
+	  }
+
+.buttontext1{
+	color: white;
+
+}
+.contactheading{
+	color: gray;
+	font-size: 64px;
+}
+.Form{
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+    max-width: 2vw 4vw;
+	width: 300px;
+	max-width: 600px;
+}
+.submitform{
+	font-size: 20px;
+	color: white;
+	background-color: #24262b;
+	width: 200px;
+	height: 50px;
+	margin-top: 50px;
+}
+.one{
+	background-color: #F2F0F0;
+	width: 400px;
+	height: 40px;
+	padding: 4px;
+	margin-top: 20px;
+}
+.two{
+	background-color: #F2F0F0;
+	width: 400px;
+	height: 40px;
+	padding: 4px;
+	margin-top: 20px;
+}
+.three{
+	background-color: #F2F0F0;
+	width: 400px;
+	height: 40px;
+	padding: 4px;
+	margin-top: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.four{
+	background-color: #F2F0F0;
+	width: 400px;
+	height: 40px;
+	padding: 4px;
+	margin-top: 20px;
+}
+.five{
+	background-color: #F2F0F0;
+	width: 400px;
+	height: 40px;
+	padding: 4px;
+	margin-top: 20px;
+}
+.formcontact{
+	display: flex;
+	flex-direction: row;
+}
+.contactpic{
+	width: 1200px;
+	height: 390px;
+	padding-left: 200px;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+.Mainfooter{
+	padding-top: 1200px;
+}
+.footer{
+	background-color: #2C2C2C;
+    padding: 70px 0;
+	
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 20px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.imagefooterlogo{
+  padding-right: 100px;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  @layer utilities {
+	.text-balance {
+	  text-wrap: balance;
+	}
+  }
+  
+  
+
+  
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
+
+   
